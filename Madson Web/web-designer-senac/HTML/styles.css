@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(236, 235, 235);
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6{
+    font-family: kanit, sans-serif;
+    color: blue;
+    text-align: center;
+    background-color: #dedede;
+}
+
+fieldset{
+    margin-bottom: 10px;
+}
+
+legend{
+    text-align: center;
+    color: blue;
+}
+
+
+table{
+    width: 100%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: left;
+    padding: 15px;
+    border: 1px;
+    border-color: rgb(217, 214, 214);
+    border-style: solid;
+}
+
+table td input{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 1px 1px 2px #333333;
+    transition-duration: 300ms;
+}
+
+table td input:hover{
+    border-color: blue;
+    background: rgb(203, 178, 226);
+}
+
+table td input:focus{
+    background: rgb(178, 155, 199);
+}
+
+tr{
+    font-family: roboto, sans-serif;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+.botao{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 200ms;
+    padding: 5px;
+}
+
+.botao:hover{
+    background-color: rgb(20, 20, 163);
+}
+
+td.escolaridade{
+    text-align: left;
+}
+
+.escolaridade{
+    height: 20px;
+    text-align: left;
+}

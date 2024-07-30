@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="font-family: kanit, sans-serif;">Cadastro de funcionários ACME</h1>
+    <div>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem accusantium perferendis odio unde amet eum,
+            et laboriosam explicabo eligendi praesentium quasi tempora est id deserunt doloremque porro. Sequi, saepe
+            fugiat?</h6>
+        <form>
+            <fieldset>
+                <legend style="font-family: kanit, sans-serif;" color="">Dados Pessoais</legend>
+                <table>
+                    <tr style="font-family: roboto, sans-serif;">
+                        <td>Nome:</td>
+                        <td><input type="text" name="nome"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sobrenome:</td>
+                        <td><input type="text" name="sobrenome"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Idade:</td>
+                        <td><input type="number" name="idade"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Data de Nascimento:</td>
+                        <td><input type="date" name="D_nascimento"><br></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend style="font-family: kanit, sans-serif;">Dados Profissionais</legend>
+
+                <table>
+                    <tr>
+                        <td>Escolaridade:</td>
+                        <td class="escolaridade:">
+                            <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto">Ensino Fundamental Incompleto
+                            <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Completo">Ensino Fundamental Completo
+                            <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Médio Incompleto">Ensino Médio Incompleto
+                            <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Médio Completo">Ensino Médio Completo
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Última experiência profissional</td>
+                        <td><input type="text" name="U_experiencia"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td>Pretensão Salarial</td>
+                        <td><input type="number" format="currency" name="P_salario" step="0.10" min="0.00"
+                                placeholder="R$ 0.00"><br></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <div class="container">
+                <button class="botao">limpar</button>
+                <button class="botao">salvar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
